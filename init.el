@@ -73,7 +73,8 @@
   :init
   (setq whitespace-style '(face trailing lines-tail empty tabs))
   (setq whitespace-line-column 80)
-  :hook prog-mode)
+  :hook prog-mode
+  :hook LaTeX-mode)
 
 ;;80 chars lines
 (use-package fill-column-indicator
